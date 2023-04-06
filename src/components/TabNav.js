@@ -1,20 +1,22 @@
 import styled from "styled-components";
 import { useState } from "react";
+import "../style/font.css";
 
 const NavContainer = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 50px;
+  width: 55px;
   height: 600px;
 `;
 
 const TabMenu = styled.ul`
   padding-top: 3rem;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 600;
   display: flex;
   flex-direction: column;
+  font-family: "IBM Plex Sans KR";
 
   .submenu {
     display: flex;
