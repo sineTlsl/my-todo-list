@@ -1,12 +1,13 @@
 import styled from "styled-components";
 import { useState } from "react";
 import Todo from "./Todo";
+import "../../style/font.css";
 
 const TodoMenuContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 100%;
+  width: 95%;
   height: 100%;
 `;
 
@@ -36,25 +37,31 @@ const TabMenu = styled.ul`
   }
 `;
 
-const TodoMenuTab = () => {
+const TodoMenuTab = ({ isEditing, setIsEditing }) => {
   let [todoTab, setTodoTab] = useState(0);
   let todoTabName = ["All", "TODO", "DOING", "DONE"];
   return (
     <TodoMenuContainer>
-      <TabMenu>
-        {todoTabName.map((tab, idx) => {
-          return (
-            <li
-              className={todoTab === idx ? "submenu focused" : "submenu"}
-              key={idx}
-              onClick={() => setTodoTab(idx)}
-            >
-              {tab}
-            </li>
-          );
-        })}
-      </TabMenu>
-      <Todo todoTabName={todoTabName[todoTab]} />
+      {!isEditing ? (
+        <TabMenu>
+          {todoTabName.map((tab, idx) => {
+            return (
+              <li
+                className={todoTab === idx ? "submenu focused" : "submenu"}
+                key={idx}
+                onClick={() => setTodoTab(idx)}
+              >
+                {tab}
+              </li>
+            );
+          })}
+        </TabMenu>
+      ) : null}
+      <Todo
+        todoTabName={todoTabName[todoTab]}
+        isEditing={isEditing}
+        setIsEditing={setIsEditing}
+      />
     </TodoMenuContainer>
   );
 };
