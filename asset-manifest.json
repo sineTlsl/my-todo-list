@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-todo-list/static/css/main.caa09161.css",
+    "main.js": "/my-todo-list/static/js/main.22aa566c.js",
+    "static/media/IBMPlexSansKR-SemiBold.woff": "/my-todo-list/static/media/IBMPlexSansKR-SemiBold.5d6cce15c7880bd1bb32.woff",
+    "static/media/IBMPlexSansKR-Medium.woff": "/my-todo-list/static/media/IBMPlexSansKR-Medium.1f7174efabbde968d843.woff",
+    "static/media/IBMPlexSansKR-Bold.woff": "/my-todo-list/static/media/IBMPlexSansKR-Bold.9d4a5d5c40e14bfc6f25.woff",
+    "static/media/IBMPlexSansKR-Regular.woff": "/my-todo-list/static/media/IBMPlexSansKR-Regular.93df89d224788962f0d1.woff",
+    "static/media/IBMPlexSansKR-ExtraLight.woff": "/my-todo-list/static/media/IBMPlexSansKR-ExtraLight.62f2bdc1e1de46571b66.woff",
+    "static/media/IBMPlexSansKR-Light.woff": "/my-todo-list/static/media/IBMPlexSansKR-Light.a7edc647a3879c410e21.woff",
+    "static/media/IBMPlexSansKR-Thin.woff": "/my-todo-list/static/media/IBMPlexSansKR-Thin.bd7a8995214ff477a9e0.woff",
+    "static/media/PoetsenOne-Regular.woff": "/my-todo-list/static/media/PoetsenOne-Regular.a929cd7302ea8d2c9097.woff",
+    "index.html": "/my-todo-list/index.html",
+    "main.caa09161.css.map": "/my-todo-list/static/css/main.caa09161.css.map",
+    "main.22aa566c.js.map": "/my-todo-list/static/js/main.22aa566c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caa09161.css",
+    "static/js/main.22aa566c.js"
+  ]
+}
